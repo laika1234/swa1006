@@ -1,14 +1,6 @@
 {
-    "routes": [
-        {
-          "route": "/",
-          "headers": {
-            "Cache-Control": "public, max-age=6000, proxy-revalidate, s-maxage=6000",
-            "Tom":"ahahah"
-        }
-        }],
     "globalHeaders": {
-         "Cache-Control": "public, max-age=6000, proxy-revalidate, s-maxage=6000",
-         "Tom":"ahahah"
+         "Cache-Control": "",
+         "Tom":"ahahah2"
       }
 }
