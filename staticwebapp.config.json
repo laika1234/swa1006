@@ -1,0 +1,14 @@
+{
+    "routes": [
+        {
+            "route": "/example",
+            "rewrite": "/example.html"
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "/index.html"
+    },
+    "globalHeaders": {
+         "Cache-Control": "public, must-revalidate, max-age=6000, proxy-revalidate, s-maxage=60000"
+      }
+}
