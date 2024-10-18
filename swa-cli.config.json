@@ -5,7 +5,9 @@
       "appLocation": "app",
       "apiLocation": "api",
       "outputLocation": ".",
-      "apiBuildCommand": "npm run build --if-present"
+      "apiBuildCommand": "npm run build --if-present",
+      "appName": "swa10062",
+      "resourceGroup": "swa10062"
     }
   }
 }
