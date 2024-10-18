@@ -6,7 +6,7 @@
 
     <script>
     (async function() {
-        const { text } = await( await fetch(`/api/httptrigger2`)).json();
+        const { text } = await( await fetch(`/api/httptrigger1`)).json();
         document.querySelector('#name').textContent = text;
     }());
     </script>
